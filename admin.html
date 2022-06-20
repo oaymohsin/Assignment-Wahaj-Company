@@ -20,12 +20,119 @@
                     <!-- offcanvas code -->
                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Sidebar</button>
                     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                      <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      <div class="offcanvas-header bg-dark d-flex justify-content-between">
+                        <h3 class="offcanvas-title  text-white" id="offcanvasWithBothOptionsLabel">AdminLTE3</h3>
+                        <button type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                       </div>
-                      <div class="offcanvas-body">
-                        <p>Try scrolling the rest of the page to see this option in action.</p>
+                      <div class="offcanvas-body bg-dark">
+                       <!-- navbar in offcanvas -->
+                       <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-start ">
+                         
+                        <div class="container-fluid d-flex flex-column align-items-start">
+                          <form class="d-flex mb-1">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                          </form>
+                          <a class="navbar-brand" href="#">Navbar</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse d-flex flex-column" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto d-flex flex-column mb-2 mb-lg-0">
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dashboard
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Dashboard V1</a></li>
+                                  <li><a class="dropdown-item" href="#">Dashboard V2</a></li>
+                                  <li><a class="dropdown-item" href="#">Dashboard V3</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Widgets</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Layout Options
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Top Navigation</a></li>
+                                  <li><a class="dropdown-item" href="#">Top Navigation + Sidebar</a></li>
+                                  <li><a class="dropdown-item" href="#">Boxed</a></li>
+                                  <li><a class="dropdown-item" href="#">Fixed Sidebar</a></li>
+                                  <li><a class="dropdown-item" href="#">Fixed Sidebar + Custom Area</a></li>
+                                  <li><a class="dropdown-item" href="#">Fixed Navbar</a></li>
+                                  <li><a class="dropdown-item" href="#">Fixed Footer</a></li>
+                                  <li><a class="dropdown-item" href="#">Collapsed Sidebar</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Charts
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">ChartJS</a></li>
+                                  <li><a class="dropdown-item" href="#">Flot</a></li>
+                                  <li><a class="dropdown-item" href="#">Inline</a></li>
+                                  <li><a class="dropdown-item" href="#">uPlot</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  UI Elements
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">General</a></li>
+                                  <li><a class="dropdown-item" href="#">Icons</a></li>
+                                  <li><a class="dropdown-item" href="#">Buttons</a></li>
+                                  <li><a class="dropdown-item" href="#">Sliders</a></li>
+                                  <li><a class="dropdown-item" href="#">Modals & Alerts</a></li>
+                                  <li><a class="dropdown-item" href="#">Navbar & Tabs</a></li>
+                                  <li><a class="dropdown-item" href="#">Timeline</a></li>
+                                  <li><a class="dropdown-item" href="#">Ribbons</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Forms
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">General Elements</a></li>
+                                  <li><a class="dropdown-item" href="#">Advanced Elements</a></li>
+                                  <li><a class="dropdown-item" href="#">Editors</a></li>
+                                  <li><a class="dropdown-item" href="#">Validation</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Tables
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Simple Tables</a></li>
+                                  <li><a class="dropdown-item" href="#">Data Tables</a></li>
+                                  <li><a class="dropdown-item" href="#">jsGrid</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">EXAMPLES</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Calendar</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Gallery</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">kanban Board</a>
+                              </li>
+                              
+                              
+                            </ul>
+                           
+                          </div>
+                        </div>
+                      </nav>
                       </div>
                     </div>
                     <!-- offcanvas code end -->
@@ -164,10 +271,9 @@
             </nav>
           </div>
           
-          <div class="card-body collapse " id="show-image">
-            hhelljdfljkljdlfjlj
-            <!-- <img class="img-fluid card-img" id="graph-image" src="graph.png" alt="">
-            <img class="img-fluid card-img " id="donut-image" src="donut.png" alt=""> -->
+          <div class="card-body" id="show-image">
+            <img class="img-fluid card-img" id="graph-image" src="graph.png" alt="">
+            <img class="img-fluid card-img collapse " id="donut-image" src="donut.png" alt="">
           </div>
         </div>
       </div>
