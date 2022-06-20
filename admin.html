@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="admin.css">
+    <body>
+   <div class="container-fluid">
+    <!-- first row with navbar and sidebar off canvas -->
+    <div class="row">
+        <!-- <---Offcanvas----->
+        <div class="col-12">
+            <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!-- offcanvas code -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Sidebar</button>
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <p>Try scrolling the rest of the page to see this option in action.</p>
+                      </div>
+                    </div>
+                    <!-- offcanvas code end -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav w-100 d-flex justify-content-between mb-2 mb-lg-0">
+                      <div class="d-flex">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                         </li>
+                       <li class="nav-item">
+                         <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </div>
+                      <div class="d-flex">
+                      <li class="nav-item">
+                            <a class="nav-link " href="#"><i class="fa fa-search"></i></a>
+                          </li> 
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+                          </li>
+                        </div>
+
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div>
+        
+    </div>
+    <!-- Second row Dashboard heading and breadcrumb -->
+    <div class="row m-3">
+      <div class="col-6">
+        <h3 class="h3">Dashboard</h3>
+      </div>
+      <div class="col-6 d-flex justify-content-end">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Third Row Dashboard Cards -->
+    <div class="row">
+      <div class="col-3">
+        <div class="card text-center" style="background-color: #17a2b8;">
+          <div class="card-body d-flex justify-content-between">
+            <div class="d-flex flex-column mb-3">
+              <h3 class="card-title">150</h3>
+              <p class="card-text text-white">New Orders</p>
+            </div>
+            <!-- <img src="" alt="this is image"> -->
+            <span class="iconify" data-icon="ion:bag" style="width:100px ; height:100px; color:#1591a5;"></span>
+          </div>
+          <div class="card-footer text-muted" style="background-color: #1591a5;">
+          <a href="" class="text-decoration-none text-white "> More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center" style="background-color: #28a745;">
+          <div class="card-body text-white d-flex justify-content-between">
+            <div class="d-flex flex-column mb-3">
+              <h3 class="card-title">53<sup>%</sup></h3>
+            
+              <p class="card-text text-white">New Orders</p>
+            </div>
+            <!-- <img src="" alt="this is image"> -->
+            <span class="iconify" data-icon="bx:bar-chart" style="width:100px ; height:100px; color:#24963e;"></span>
+            
+          </div>
+          <div class="card-footer text-muted" style="background-color: #24963e;">
+          <a href="" class="text-decoration-none text-white "> More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card bg-warning text-center">
+          <div class="card-body d-flex justify-content-between">
+            <div class="d-flex flex-column mb-3">
+              <h3 class="card-title">150</h3>
+              <p class="card-text text-white">New Orders</p>
+            </div>
+            <!-- <img src="" alt="this is image"> -->
+            <span class="iconify" data-icon="bxs:user-plus" style="width:100px ; height:100px; color:#e5ad06;"></span>
+          </div>
+          <div class="card-footer text-muted" style="background-color: #e5ad06;" >
+          <a href="" class="text-decoration-none text-white "> More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card bg-danger text-center">
+          <div class="card-body d-flex justify-content-between">
+            <div class="d-flex flex-column mb-3">
+              <h3 class="card-title">150</h3>
+              <p class="card-text text-white">New Orders</p>
+            </div>
+            <!-- <img src="" alt="this is image"> -->
+            <span class="iconify" data-icon="ant-design:pie-chart-filled" style="width:100px ; height:100px; color:#c6303e;"></span>
+          </div>
+          <div class="card-footer text-muted" style="background-color:#c6303e;">
+          <a href="" class="text-decoration-none text-white "> More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-8">
+        <div class="card">
+          <div class="card-header d-flex justify-content-between">
+            <h5 class="h5 m-3">Featured</h5>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ">
+                    <a class="nav-link p-0"  aria-current="page" href="#"><button class="btn btn-primary" id="area-button"> Area</button></a>
+                    <a class="nav-link p-0"  href="#show-image"><button class="btn"  id="donut-button" data-target="show-image" data-toggle="collapse">Donut</button></a>
+                    
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          
+          <div class="card-body collapse " id="show-image">
+            hhelljdfljkljdlfjlj
+            <!-- <img class="img-fluid card-img" id="graph-image" src="graph.png" alt="">
+            <img class="img-fluid card-img " id="donut-image" src="donut.png" alt=""> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+
+
+
+   </div>
+   
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</html>
